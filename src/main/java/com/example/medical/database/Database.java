@@ -9,7 +9,7 @@ import java.sql.*;
 public class Database {
     private static final String URL = "jdbc:postgresql://localhost:5433/medical";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "484425";
+    private static final String PASSWORD = "your-password";
     private Connection connection;
     private Statement statement;
     private ResultSet resultSet;
